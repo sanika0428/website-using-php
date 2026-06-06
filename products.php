@@ -31,8 +31,8 @@ Donation Amount:
 <?php echo $row['description']; ?>
 </p>
 
-<a href="cart.php?id=<?php echo $row['id']; ?>">
-Add To Cart
+<a href="single_product.php?id=<?php echo $row['id']; ?>">
+View Product
 </a>
 
 </div>
